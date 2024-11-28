@@ -1,7 +1,6 @@
 
-/* Dummy large file
 const largeData = Array(500000).fill('This is dummy data for size testing.').join('\n');
-console.log(largeData); */
+console.log(largeData); 
 
 // Inflate JavaScript file to approximately 5 MB
 const targetSize = 5 * 1024 * 1024; // 5 MB in bytes
