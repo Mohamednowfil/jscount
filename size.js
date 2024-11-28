@@ -36,3 +36,8 @@ while (currentSizes < targetSizes) {
 // Write the inflated string to a .js file
 fs.writeFileSync("largeFile.js", `// Auto-generated large file\nconst largeString = \`${largeStrings}\`;\n`);
 console.log("largeFile.js created with size:", currentSizes / (1024 * 1024), "MB");
+
+
+
+
+
